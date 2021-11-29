@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #d35517;
+}
+
+#main1{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#title{
+    position: relative;
+    left: 30%;
+    bottom: 50%;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+#logo{
+    width: 25%;
+    position: relative;
+    bottom: 10%;
+    right: 59%;
+}
+
+#main2{
+    width: 40%;
+    height: 7%;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+#parr{
+    position: relative;
+    top: 30%;
+    font-size: 18px;
+}
+
+#main3{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+#input{
+    width: 97%;
+    height: 40%;
+    position: relative;
+    left: 1%;
+    border-radius: 5px;
+    background: #ffb987;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid rgb(104, 54, 14);
+}
+#input2{
+    width: 97%;
+    height: 40%;
+    position: relative;
+    left: 1%;
+    top: 5%;
+    border-radius: 5px;
+    background: #ffb987;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid rgb(104, 54, 14);
+}
+
+#main4{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    top: 72%;
+    left: 30%;
+}
+#parr2{
+    width: 30%;
+    position: relative;
+    background: transparent;
+    color: #111;
+    left: 50%;
+    top: 20%;
+    font-size: 17px;
+}
+#register{
+    position: relative;
+    color: #111;
+    background: transparent;
+    left: 80%;
+    top: 8%;
+    cursor: pointer;
+    font-weight: bold;
+}
+#lostpass{
+    position: relative;
+    right: 17%;;
+    top: 8%;
+    font-size: 17px;
+    background: transparent;
+    color: #111;
+}
+#inicio{
+    width: 98%;
+    height: 50%;
+    background: #f57b2a;
+    position: relative;
+    left: 1%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 200%;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 205, 205);
+    font-weight: bold;
+    font-size: 30px;
+}
+#inicio:hover{
+    background: #FF8027;
+}
