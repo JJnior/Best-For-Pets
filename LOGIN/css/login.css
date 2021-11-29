@@ -1,32 +1,143 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #d35517;
+}
+  
+@font-face{
+    font-family: "fontuno";
+    src: url("/productos_pets/css/fonts/Best\ School\ Font\ by\ Kelik\ \(7NTypes\).otf");
+}
+@font-face{
+    font-family: "fontdos";
+    src: url("/productos_pets/css/fonts/can\ dog\ tfb.ttf");
+}
+@font-face{
+    font-family: "fonttres";
+    src: url("/productos_pets/css/fonts/kitty\ cats\ tfb.ttf");
 }
 
-#main1{
-    width: 40%;
-    height: 20%;
-    position: absolute;
-    top: 10%;
-    left: 30%;
+.header{
+    background: rgb(255, 255, 255);
+    padding: 1rem 0;
+    position:fixed;box-shadow: 0px 0px 10px 5px rgb(180, 81, 0) ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
-#title{
-    position: relative;
-    left: 30%;
-    bottom: 50%;
-    font-style: italic;
-    font-size: 40px;
+.header a{
+    color: rgb(255, 123, 0);
     text-decoration: none;
-    color: #111;
+}
+.log-nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{font-size: 22px;
+    display: inline-block;
+    font-family: "fontuno";
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
     font-weight: bold;
 }
-#logo{
-    width: 25%;
-    position: relative;
-    bottom: 10%;
-    right: 59%;
+.navigation ul li a:hover{
+    background: rgb(255, 116, 2);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+.logo{
+    font-family: "fontuno";
+    letter-spacing: 5px;
+    font-size:35px;
+    padding-left: 135px;
+    font-weight: bold;
+}
+#log{
+    padding-top: 10px;
+    width: 120px;
+   position: absolute;padding-left: 30px;
+   top: -15px;
+}
+#cart{
+    width: 40px;
+}
+.gato{
+    font-family: "fonttres";
+    font-size: 4em;
+}
+.perro{
+    font-family: "fontdos";
+    font-size: 4em;
+}
+
+#port{
+    width: 100%;
+   padding-top: 115px;
+    
+}
+
+#ventana{background-color: rgb(255, 194, 145);position: fixed;right: 0;width: 40%;height: 100%;top: 0;display: none;}
+/* -------------------------------------------REDES SOCIALES--------------------------------------------------------------------------------*/
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook2{
+	background: #2E406E;
+}
+.icon-twitter {
+	background: #339DC5;
+}
+.icon-youtube {
+	background: #E83028;
+}
+.icon-instagram {
+	background: #3F60A5;
+}
+.icon-whatsapp {
+	background: #25d366;
+}
+.icon-telegram {
+	background: #0088CC;
+}
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+#espace{
+    padding-top: 7%;
+    padding-left: 17%;
+    margin: auto;
 }
 
 #main2{
@@ -40,6 +151,7 @@
     position: relative;
     top: 30%;
     font-size: 18px;
+    color: #FF8027;
 }
 
 #main3{
@@ -55,10 +167,10 @@
     position: relative;
     left: 1%;
     border-radius: 5px;
-    background: #ffb987;
+    background: #fff;
     font-size: 20px;
     text-align: center;
-    border: 2px solid rgb(104, 54, 14);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.42);
 }
 #input2{
     width: 97%;
@@ -67,10 +179,10 @@
     left: 1%;
     top: 5%;
     border-radius: 5px;
-    background: #ffb987;
+    background: #fff;
     font-size: 20px;
     text-align: center;
-    border: 2px solid rgb(104, 54, 14);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.42);
 }
 
 #main4{
@@ -84,14 +196,15 @@
     width: 30%;
     position: relative;
     background: transparent;
-    color: #111;
+    color: #FF8027;
     left: 50%;
     top: 20%;
     font-size: 17px;
+    font-weight: bold;
 }
 #register{
     position: relative;
-    color: #111;
+    color: #FF8027;
     background: transparent;
     left: 80%;
     top: 8%;
@@ -104,7 +217,8 @@
     top: 8%;
     font-size: 17px;
     background: transparent;
-    color: #111;
+    color: #FF8027;
+    font-weight: bold;
 }
 #inicio{
     width: 98%;
@@ -119,7 +233,16 @@
     border: 2px solid rgb(255, 205, 205);
     font-weight: bold;
     font-size: 30px;
+    font-weight: bold;
 }
 #inicio:hover{
     background: #FF8027;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    overflow: hidden;
 }
