@@ -34,6 +34,17 @@
         <a href="https://web.whatsapp.com/" class="icon icon-whatsapp"></a>
         <a href="https://web.telegram.org/" class="icon icon-telegram"></a>
       </div>
+      <!-- FILTRO-->
+<div class="filtro">
+    <div class="category_list">
+        <div  href="#" class="category_item" category="all">Todo</div>
+        <div href="#" class="category_item" category="juguetes">Juguetes</div>
+        <div href="#" class="category_item" category="platos">Platos</div>
+        <div href="#" class="category_item" category="camas">Camas</div>
+        <div href="#" class="category_item" category="acolchados">Accesorios Acolchados</div>
+        </div>
+        </div>
+<!-- FILTRO -->
        <div class="container-slider">
         <div class="slider"id="slider">
             <div class="slider__section">
@@ -48,8 +59,8 @@
         <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
         <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
     </div>
- 
- <div class="separ">
+
+      <div  class="product-item" category="juguetes">
      <div class="conte">
          <div class="card toy-uno">
              <img src="img/juguete1.jpg" width="415" height="330">
@@ -66,7 +77,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
- 
+     </div>
+
+     <div  class="product-item" category="juguetes">
      <div class="conte">
          <div class="card juguete">
              <img src="img/juguete2.jpg" width="415" height="330">
@@ -83,7 +96,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
- 
+     </div>
+
+     <div  class="product-item" category="juguetes">
      <div class="conte">
          <div class="card toy-tres">
              <img src="img/juguete3.jpg" width="415" height="330">
@@ -100,7 +115,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
- 
+     </div>
+
+     <div  class="product-item" category="platos">
      <div class="conte">
          <div class="card plato-cuatro" >
              <img src="img/plato1.jpg" width="415" height="330">
@@ -117,7 +134,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
- 
+ </div>
+
+ <div class="product-item" category="platos">
      <div class="conte">
          <div class="card plato-cinco">
              <img src="img/plato2.jpg" width="415" height="330">
@@ -134,7 +153,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
+ </div>
  
+ <div class="product-item" category="platos">
      <div class="conte">
          <div class="card plato-seis">
              <img src="img/plato3.jpg" width="415" height="370">
@@ -151,7 +172,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
- 
+     </div>
+
+     <div class="product-item" category="camas">
      <div class="conte">
          <div class="card cama-siete">
              <img src="img/Sofácama1.jpg" width="415" height="330">
@@ -168,7 +191,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
+     </div>
  
+     <div class="product-item" category="camas">
      <div class="conte">
          <div class="card cama-ocho">
              <img src="img/cama1.jpg" width="415" height="330">
@@ -185,7 +210,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>
+     </div>
  
+     <div class="product-item" category="acolchados">
      <div class="conte">
          <div class="card cama-nue">
              <img src="img/colchoneta1.png" width="415" height="330">
@@ -202,8 +229,9 @@
          </div>
          <div class="boton">COMPRAR</div>
      </div>  
+     </div>
  </div>
- 
+</section>
  
  <!-- START SECTION SHOPPING CART -->
  <section class="shopping-cart" id="carrito">
@@ -257,6 +285,8 @@
  
  <script src="js/slider.js"></script>
  <script src="js/compras.js"></script>
+ <script src="js/jquery-3.2.1.js"></script>
+ <script src="js/script.js"></script>
  <script>
     function abrir(){
     carrito.style.display="block";}
@@ -270,6 +300,7 @@
       var myLandbot = new Landbot.Livechat({
         configUrl: 'https://chats.landbot.io/v3/H-1003966-0LOZS522KYQESC92/index.json',
       });
+      
     </script>
  </body>
 

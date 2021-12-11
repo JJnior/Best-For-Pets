@@ -9,7 +9,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
-.conte{
+.conte{position: absolute;top: 680px;
     background: white;
     height: 540px;
     width: 22%;
@@ -106,7 +106,7 @@ body{
     flex-wrap: wrap;
 }
 .conte{
-    background: white;
+    background: white;position: relative;
     height: 580px;
     width: 380px;
     box-shadow:0 0 7px #111 ;
@@ -158,38 +158,8 @@ body{
     font-size: 1.8em;
 }
 
-@media (max-width:320px)
-{
-    .conte{
-        width: 100%;
-        margin: 30px 0;
-    }
-}
-@media (max-width:600px)
-{
-    .conte{
-        width: 100%;
-        margin: 30px 0;
-    }
-}
-
-@media (max-width:700px)
-{
-    .conte{
-        width: 80%;
-        margin: 30px 0;
-    }
-}
-
-@media (max-width:900px)
-{
-    .conte{
-        width: 40%;
-        margin: 30px 20px;
-    }
-}
 /* --------------------------------------------------------SLIDER-------------------------------------------------------------*/
-.container-slider{
+.container-slider{position: absolute;top: 250px;
     width: 90%;
     height: 500px;
     max-width: 1000px;
@@ -489,4 +459,47 @@ body{
     height: 100%;
     float: left;
     padding-top: 25px;
+}
+
+
+.products{
+    width: 100%;position: relative;
+}
+/*FILTRO*/
+.filtro{width: 100%;background-color: white;
+    position: absolute;top: 70px;
+    left: 0;
+}
+.category_list{margin: auto;position: fixed;top: 105px;left: 0;z-index: 1;
+    display:flex;
+	width:100%;
+}
+.category_item{cursor: pointer;
+	width: 20%;
+    margin: auto;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+    font-family: Cambria;
+    font-size: 20px;
+	background: white;
+	text-align: center;
+	color: orangered;
+}
+.category_list .category_item:hover{
+    cursor: pointer;
+	width: 25%;
+    margin: auto;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	background: rgb(255, 116, 2);
+    transition: all 0.5s ease;
+	text-align: center;
+	color: rgb(255, 255, 255);
+
+}
+
+.category_list .ct_item-active{
+	background: rgb(255, 116, 2);
+    color: rgb(255, 255, 255);
+    border: #ffffff 1px solid;
 }
