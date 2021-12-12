@@ -11,7 +11,7 @@ body{
     flex-wrap: wrap;
 }
 .conte{
-    position: absolute;top: 680px;
+    position: relative;top: 10px;
     background: white;
     height: 540px;
     width: 22%;
@@ -141,13 +141,10 @@ img .open:hover{
     }
 }
 
-.gaa{
-    border: 5px solid black;position: relative;width: 100%;height: 100%;
-}
 
 .separ{ 
-    min-height: calc(100vh-100px-720px);
-    width: 100%;top: -700px;
+   
+    width: 100%;
     position:relative;
     display: flex;
     justify-content: center;
@@ -209,15 +206,13 @@ img .open:hover{
 }
 
 /* --------------------------------------------------------SLIDER-------------------------------------------------------------*/
-.container-slider{position: relative;top:0px;
-    width: 90%;
+.container-slider{position: relative;top:20px;
+    width: 90%;border: 5px solid rgb(255, 255, 255);
     height: 500px;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    box-shadow: 0 0 0 10px white, 0 15px 50px;
-    margin-bottom: 50px;
-    
+    box-shadow: 0 0 10px 5px rgb(73, 71, 71)
 }
 
 .slider{
@@ -255,7 +250,7 @@ img .open:hover{
     color: rgb(255, 123, 0);
 
 }
-.slider__btn--left{position: relative;
+.slider__btn--left{position:relative;
     left: 0px;top: -280px;
 
 }
@@ -517,10 +512,7 @@ img .open:hover{
 
 
 /*FILTRO*/
-.filtro{width: 100%;background-color: white;
-    position: relative;top: 70px;padding-bottom: 50px;
-    left: 0;
-}
+
 .category_list{margin: auto;position: fixed;top: 105px;left: 0;z-index: 1;
     display:flex;
 	width:100%;
