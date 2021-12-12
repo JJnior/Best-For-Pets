@@ -14,6 +14,14 @@
     font-family: "fonttres";
     src: url("productos_pets/css/fonts/kitty\ cats\ tfb.ttf");
 }
+body{
+    position: relative;
+   padding-bottom: 3em;
+   min-height: 100vh;
+   /* display: flex;
+   flex-direction: column;
+   min-height: 100vh; */
+}
 
 .header{
     background: rgb(255, 255, 255);
@@ -138,6 +146,133 @@
     padding-top: 7%;
     padding-left: 17%;
     margin: auto;
+    padding-bottom: 50%;
+}
+
+#derechos{
+    background-color: white;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#correo{
+    float: left;
+    
+}
+#titulos{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black; 
+    padding-top: 1.4%;
+    font-weight: bold;
+    float: left;
+}
+#correo1{
+    float: left;
+    margin-left: 1em;
+}
+
+#inputo{
+    width: 150%;
+    height: 2em;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#enviar1{
+    padding-top: 0.7%;
+    margin-left: 10em;
+    float: left;
+}
+.boton1{
+    width:120%; 
+    background-color:gray;
+    border-radius:3px;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-align: center;
+    font-size: 1.3em; 
+    line-height: 1.6em;
+    color: #fff;
+    font-weight: bold;
+}
+.boton1:hover{
+    background-color: turquoise;
+}
+#enviar2{
+    padding-top: 0.7%;
+    margin-left: 2em;
+    float: left;
+}
+.boton2{
+    width:120%; 
+    background-color:gray;
+    border-radius:3px;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-align: center;
+    font-size: 1.3em; 
+    line-height: 1.6em;
+    color: #fff;
+    font-weight: bold;
+}
+.boton2:hover{
+    background-color: turquoise;
+}
+#check{
+    float: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    padding-left: 33%;
+}
+
+#pago{
+    padding-top: 15%;
+    
+    
+}
+#metodos{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1%;
+
+   
+}
+#contact{
+    width: 50%;
+
+}
+#contact ul{
+    list-style: none;   
+}
+#contact ul li{
+    padding: 1%;  
+}
+#libro{
+    float: right;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+#derechos1{
+    padding-top: 3%;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    color: orangered;
+    text-shadow:1px 1px 2px black;  
 }
 
 /* #consult{
