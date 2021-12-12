@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/cabecera.css">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="../a/css/font.css">
+    <link rel="stylesheet" href="../index.css">
     <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
 </head>
 <body>
@@ -27,6 +28,8 @@
                </nav>
            </div>
        </header>    
+
+
        <div class="social-bar">
         <a href="https://www.facebook.com/" class="icon icon-facebook2"></a>
         <a href="https://www.instagram.com/" class="icon icon-instagram"></a>
@@ -34,6 +37,8 @@
         <a href="https://web.whatsapp.com/" class="icon icon-whatsapp"></a>
         <a href="https://web.telegram.org/" class="icon icon-telegram"></a>
       </div>
+
+
       <!-- FILTRO-->
 <div class="filtro">
     <div class="category_list">
@@ -45,6 +50,8 @@
         </div>
         </div>
 <!-- FILTRO -->
+
+<div class="slid">
        <div class="container-slider">
         <div class="slider"id="slider">
             <div class="slider__section">
@@ -59,7 +66,9 @@
         <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
         <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
     </div>
+ </div>
 
+<div class="separ">
       <div  class="product-item" category="juguetes">
      <div class="conte">
         <div class="card toy-uno">
@@ -279,9 +288,10 @@
          <div class="boton">COMPRAR</div>
      </div>  
      </div>
+     
  </div>
-</section>
- 
+
+
  <!-- START SECTION SHOPPING CART -->
  <section class="shopping-cart" id="carrito">
     <a href="javascript:cerrar()"><div id="cerrar"style="color: white;position: absolute;font-size: 40px;left: 97.5%;top: -10px;">x</div></a>
@@ -329,10 +339,44 @@
  
      </div>
  
- </section> -->
+ </section>
  <!-- END SECTION SHOPPING CART -->
- <div style="background-color: #ff8d34;width: 100%;height: 2.5%;top: 420%;bottom: 0;left: 0;color: white;text-align: center;padding-bottom: 5px;padding-top: 5px;position: absolute;">&copy;2021 Todos los derechos reservados BESTFORPETS</div>
- 
+ <footer id="derechos">
+    <div id="correo">
+        <div id="titulos">¡COMUNICATE CON NOSOTROS!</div>
+        <div id="correo1"><input type="email" placeholder="Correo Electrónico" id="inputo"></div>
+        <div id="enviar1"><div class="boton1">Enviar</div></div><div id="enviar2"><div class="boton2">Recibir Ofertas</div></div>
+        <br>
+        <br>
+        <br>
+        <div id="check">
+            <br>
+            <h4>TERMINOS Y CONDICIONES:</h4>
+            <br>
+            <label><input type="checkbox" name="cb-terminosservicio" required> Acepto <u style="color: orangered;">términos y condiciones</u> y la <u style="color: orangered;">Política de Privacidad y Tratamiento de Datos Personales</u></label>
+            <br><br>
+            <label><input type="checkbox" name="cb-terminosservicio" required> Autorizo el uso de mi información para <u style="color: orangered;">fines adicionales</u></label>
+        </div>
+    </div>  
+    <div id="pago">
+        <div id="metodos">METODOS DE PAGO</div>
+        <div><img src="../images/metodos.png " style="width: 99%;"></div>
+        <div id="metodos">CONTACTENOS</div>
+        <div id="contact">
+            <ul>
+                <li><h4>DIRECCIÓN PRINCIPAL:</h4> Carlos Villaran 140 Santa Catalina La Victoria.</li>
+                <li><h4>TELÉFONO:</h4> (01) 3119000</li>
+                <li><h4>CORREO:</h4>bestforpets@gmail.com</li>
+                <li><h4> WHATSAPP:</h4>959684869</li>      
+              </ul>
+        </div>
+        <div id="libro"><u><img src="../images/libro.png"></u></div>
+        <br><br><br><br><br><br>
+        <div id="derechos1">© 2021 BEST FOR PETS PERU | Todos los derechos reservados.</div>
+    
+        </div>
+    </footer>
+
  <script src="js/slider.js"></script>
  <script src="js/compras.js"></script>
  <script src="js/jquery-3.2.1.js"></script>

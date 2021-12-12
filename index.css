@@ -143,25 +143,26 @@ body{
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 #espace{
-    padding-top: 7%;
+    top: 150px;position:relative;
+    padding-bottom: 180px;
     padding-left: 17%;
-    margin: auto;
-    padding-bottom: 50%;
+    padding-right: 0%;
 }
 
 #derechos{
     background-color: white;
     padding: 1em 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    left: 0;bottom: 0;
+    margin-bottom: -50px;
+    display:block;
+    clear: both;
+    
 }
 
-#correo{
+#correo{position: relative;
     float: left;
     
 }
@@ -205,7 +206,7 @@ body{
     font-weight: bold;
 }
 .boton1:hover{
-    background-color: turquoise;
+    background-color: orangered;
 }
 #enviar2{
     padding-top: 0.7%;
@@ -225,7 +226,7 @@ body{
     font-weight: bold;
 }
 .boton2:hover{
-    background-color: turquoise;
+    background-color: orangered;
 }
 #check{
     float: left;
@@ -274,7 +275,6 @@ body{
     color: orangered;
     text-shadow:1px 1px 2px black;  
 }
-
 /* #consult{
     width: 20%;
     height: 50%;
