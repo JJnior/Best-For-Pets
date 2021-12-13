@@ -329,7 +329,7 @@
                      <p class="ml-4 mb-0 shoppingCartTotal">S/ 0</p>
                      
                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
-                         data-target="#comprarModal">Enviar</button>
+                         data-target="#comprarModal" onclick="return registro()">Enviar</button>
                  </div>
              </div>
          </div>
@@ -376,7 +376,17 @@
     
         </div>
     </footer>
-
+    <!-- ventana -->
+    <div id=ventana1>
+        <br>
+        <center><h1 id="compratext">COMPRA EXITOSA</h1></center>
+        <h2>-------------------------------------------</h2><br>
+        <CENTEr><h3 id="compratext2">Estimado cliente el pedido que acaba de solicitar se le será entregado en los siguientes tres días hábiles, si por algún motivo el paquete no llega o se encuentra en 
+            mal estado comuníquese con nuestro asesor por los medios disponibles o acérquese a nuestras oficinas en: <br> Carlos Villarán 140 Santa Catalina La Victoria.</h3></CENTEr>
+        <h2>-------------------------------------------</h2><br>
+        <button onclick="return face()" id="botoo">Aceptar</button>
+        <button id="botoo2"><a href="#derechos" id="recla">Reclamo</a></button>
+    </div>
  <script src="js/slider.js"></script>
  <script src="js/compras.js"></script>
  <script src="js/jquery-3.2.1.js"></script>

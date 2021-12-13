@@ -546,3 +546,52 @@ img .open:hover{
     color: rgb(255, 255, 255);
     border: #ffffff 1px solid;
 }
+/*ventana*/
+#ventana1{
+    position: fixed; top: 20%; left: 41%;
+    background: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    display: none;
+    border-style: dashed;
+    border-color: #ff8d34;
+}
+#botoo{
+    height: 30px;
+    width: 90px;
+    background: #ff8d34;
+    color: white;
+    position: absolute; top: 88%; left: 15%;
+    border: #ff8d34;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+#botoo:hover{
+    background: red;
+}
+#botoo2{
+    height: 30px;
+    width: 90px;
+    background: #ff8d34;
+    color: white;
+    position: absolute; top: 88%; left: 59%;
+    border: #ff8d34;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+#botoo2:hover{
+    background: red;
+}
+#compratext{
+    font-family: monospace;
+}
+#compratext2{
+    font-family: monospace;
+    font-size: 18px;
+    padding: 3%;
+}
+#recla{
+    color: white;
+    text-decoration: none;
+}

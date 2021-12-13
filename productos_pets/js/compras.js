@@ -114,5 +114,11 @@ function updateShoppingCartTotal() {
   function comprarButtonClicked() {
     shoppingCartItemsContainer.innerHTML = '';
     updateShoppingCartTotal();
-    alert("Gracias por su compra\n pronto recibirá su pedido")
   }
+  /*ventana registro*/
+  function registro(){
+    document.getElementById("ventana1").style.display="block";
+  }
+  function face(){
+    document.getElementById("ventana1").style.display="none"
+  };
